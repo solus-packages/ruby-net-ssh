@@ -1,0 +1,16 @@
+name       : ruby-net-ssh
+version    : 4.2.0
+release    : 1
+source     :
+    - https://rubygems.org/downloads/net-ssh-4.2.0.gem : 1dda1318904d8ed2c8e18b041cbe29746e6ff45ff4a798eb52aa05fa4fda841d
+license    : MIT
+component  : programming.ruby
+summary    : RubyGem - net-ssh
+description: |
+    Net::SSH: a pure-Ruby implementation of the SSH2 client protocol. It allows you to write programs that invoke and interact with processes on remote servers, via SSH2.
+builddeps  :
+    - pkgconfig(ruby-2.3)
+rundeps    :
+    - ruby
+install    : |
+    %gem_install

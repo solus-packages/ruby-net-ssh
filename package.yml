@@ -1,6 +1,6 @@
 name       : ruby-net-ssh
 version    : 5.1.0
-release    : 4
+release    : 5
 source     :
     - https://rubygems.org/downloads/net-ssh-5.1.0.gem : f61c78a0c98910b91a7c4ba6f147fd6870d8349f26a7008a8e86d3dd3372f449
 license    : MIT

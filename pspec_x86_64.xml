@@ -2,15 +2,15 @@
     <Source>
         <Name>ruby-net-ssh</Name>
         <Packager>
-            <Name>Philipp Trulson</Name>
-            <Email>philipp@trulson.de</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>MIT</License>
         <PartOf>programming.ruby</PartOf>
         <Summary xml:lang="en">RubyGem - net-ssh</Summary>
         <Description xml:lang="en">Net::SSH: a pure-Ruby implementation of the SSH2 client protocol. It allows you to write programs that invoke and interact with processes on remote servers, via SSH2.
 </Description>
-        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
     </Source>
     <Package>
         <Name>ruby-net-ssh</Name>
@@ -130,12 +130,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="4">
-            <Date>2019-01-10</Date>
+        <Update release="5">
+            <Date>2019-10-07</Date>
             <Version>5.1.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Philipp Trulson</Name>
-            <Email>philipp@trulson.de</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>
